@@ -1,65 +1,1259 @@
-body    {
+*{
     margin: 0px;
     padding: 0px;
-    height: 100%;
-    background-color: #e3f2fd;
-
-    position: relative;
-    height: 100%;
-
-    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-    font-size: 14px;
-
 }
-
-.h1{
-    margin-top: 1%;
-    padding-top: 1%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: darkblue;
-}
-
-.p{
-    margin-top: 1%;
-    padding-top: 1%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    color: darkblue;
-}
-  .swiper {
-    width: 100%;
-    padding-top: 50px;
-    padding-bottom: 50px;
-  }
-
-  .swiper-slide {
+body{
+    /* background-image: url('Path 1.png');
     background-position: center;
+    background-repeat: no-repeat;
+    height: 580px;
+    margin-top: 0px;
+    border-radius: 0px; */
+
+    min-height: 100vh;
+    width: 100vw;
+    /* overflow-x: hidden; */
+
+}
+
+.Tannu{
+    position:absolute;
+    top: auto;
+    left:auto;
+    right: auto;
+    width: 100.4%;
+    height: 156.5%;
+}
+
+
+.img1{
+    /* width: 1060px; */
+    width: 1270px;
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    /* -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-0%); */
+    z-index: 2;
+    opacity: 0.5;
+}
+
+
+.clone{
+    width: 1270px;
+    position: absolute;
+    top: 130%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.clo{
+    width: 1270px;
+    position: absolute;
+    top: 250%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.paradox{
+    width: 1270px;
+    position: absolute;
+    top: 330%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.panthar{
+    width: 1270px;
+    position: absolute;
+    top: 620%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.spider{
+    width: 1270px;
+    position: absolute;
+    top: 830%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.Thor{
+    width: 1270px;
+    position: absolute;
+    top: 938%;
+    left: 0%;
+    z-index: 2;
+    opacity: 0.5;
+}
+
+.img{
+    position:absolute;
+    top: 150%;
+    right: 60%;
+    bottom: 70%;
+    left: 10%;
+    z-index: 6;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    min-height: 34px;
+    min-width: 119px;
+    margin-right: 100px;
+    width: 190px;
+    height: -11px;
+}
+
+.nav{
+    position:absolute;
+    top: 60%;
+    right: 80%;
+    bottom: 80%;
+    left: 23.5%;
+    z-index: 6;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    margin-left: 25px;
+    min-height: 34px;
+    min-width: 119px;
+    margin-right: 100px;
+}
+
+.AU{
+    position: absolute;
+    top: 97%;
+    left: 4%;
+    height: 37%;
+    width: 48%;
+}
+
+.course{
+    position: absolute;
+    top: 103%;
+    left: 81%;
+    right: 20%;
+    bottom: 10%;
+    height: 32%;
+    width: 38%
+}
+
+.blog{
+    position: absolute;
+    top: 104%;
+    left: 146%;
+    right: 20%;
+    bottom: 10%;
+    height: 36%;
+    width: 25%
+}
+
+.CU{
+    position: absolute;
+    top: 104%;
+    left: 199%;
+    right: 20%;
+    bottom: 10%;
+    height: 30%;
+    width: 57% 
+}
+
+.Path{
+    /* width: 1246%; */
+    min-width: 100vw;
+    max-width: 100vw;
+    top: 0%;
+    left: 10%;
     background-size: cover;
-    width: 300px;
-    height: 300px;
-  }
+}
 
-  .swiper-slide img {
-    display: block;
-    width: 100%;
+.Get{
+    position:absolute;
+    top: 37.9%;
+    left: 10.3%;
+    width: 20%;
+    height: -20%;
+}
+
+.psvr{
+    position: absolute;
+    top: 18.2%;
+    left: 44.6%;
+    height: 83.5%;
+    width: 45%;
+}
+
+.exp{
+    position:absolute;
+    top: 59%;
+    left: 10.8%;
+    width: 27.3%;
+    height: -20%;
+}
+
+.search{
+    position: absolute;
+    top: 84.5%;
+    left: 576.3%;
+    width: 18.5%;
+    height: -2%;
+    cursor: pointer;
+}
+
+.search:hover{
+    /* height: 5vh;
+    width: 5vh; */
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.Rect{
+    position: absolute;
+    top: 132%;
+    left: 8.8%;
+    height: 202%;
+    width: 82.8%;
+    border-radius: 50px;
+}
+
+.log{
+    position: absolute;
+    top: 150%;
+    left: 81.8%;
+    height: 154%;
+    width: 9.3%;
+    border-radius: 50px;
+}
+
+.log:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.Login{
+    position: absolute;
+    top: 209.6%;
+    left: 85.8%;
+    height: 56%;
+    width: 3.3%;
+    cursor: pointer;
+}
+
+/* .Login:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+/* .Login:hover{
+    width: 4%;
+} */
+
+.st{
+    position: absolute;
+    top: 74%;
+    left: 8.6%;
+    height: 10%;
+    width: 14%;
+    border-radius: 50px;
+}
+
+.st:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.sl{
+    position: absolute;
+    top: 77.1%;
+    left: 11.5%;
+    height: 4%;
+    width: 9.4%;
+    cursor: pointer;
+}
+
+/* .sl:hover{
+    height: 5%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.R8{
+    position: absolute;
+    top: 72.2%;
+    left: 22.5%;
+    height: 20%;
+    width: 8.9%;
+}
+
+.R8:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.AR{
+    position: absolute;
+    top: 76.6%;
+    left: 26%;
+    height: 5%;
+    width: 1.8%;
+    cursor: pointer;
+}
+
+/* .AR:hover{
+    height: 5.6%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.super{
+    position: absolute;
+    top: 136%;
+    left: 18.9%;
+    height: 105%;
+    width: 24%; 
+}
+
+.hero{
+    position: absolute;
+    top: 134.0%;
+    left: 50.8%;
+    height: 105.4%;
+    width: 15;
+}
+
+.OL{
+    position: absolute;
+    top: 232.2%;
+    left: 48.2%;
+    height: 12%;
+    width: 5.7%;
+}
+
+.wel{
+    position: absolute;
+    top: 153%;
+    left: 60.3%;
+    height: 4.3%;
+    width: 30.5%;
+}
+
+.learn{
+    position: absolute;
+    top: 159.9%;
+    left: 60.4%;
+    height: 4.4%;
+    width: 18.8%;
+}
+
+.of{
+    position: absolute;
+    top: 167.8%;
+    left: 60.4%;
+    height: 17%;
+    width: 32.3%;
+}
+
+.IA{
+    position: absolute;
+    top: 187.8%;
+    left: 59.3%;
+    height: 33.8%;
+    width: 32.2%;
+}
+
+.AK{
+    position: absolute;
+    top: 226%;
+    left: 58.9%;
+    height: 14%;
+    width: 14.8%;
+}
+
+.AK:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.FC{
+    position: absolute;
+    top: 230%;
+    left: 62.4%;
+    height: 2.7%;
+    width: 7.5%;
+    cursor: pointer;
+}
+
+/* .FC:hover{
+    height: 3%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.TK{
+    position: absolute;
+    top: 225.9%;
+    left: 73%;
+    height: 14%;
+    width: 14.9%;
+    border-radius: 50px;
+}
+
+.TK:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.KM{
+    position: absolute;
+    top: 230%;
+    left: 76.8%;
+    height: 2.7%;
+    width: 7.2%;
+    cursor: pointer;
+}
+
+/* .KM:hover{
+    height: 3%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.NS{
+    position: absolute;
+    top: 254%;
+    left: 41.9%;
+    height: 3.4%;
+    width: 17.6%; 
+}
+
+.EB{
+    position: absolute;
+    top: 260.7%;
+    left: 37.4%;
+    height: 4.5%;
+    width: 27.7%; 
+}
+
+
+.NT{
+    z-index: 2;
+    position: absolute;
+    top: 271%;
+    left: 7.4%;
+    height: 56.7%;
+    width: 86.7%; 
+    cursor: pointer;
+    box-shadow: 5px 5px 6px 5px #9999FF, 10px 10px 12px 10px #CCFF99;
+}
+
+.NT:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.XL{
+    position: absolute;
+    top: 335%;
+    left: 43.4%;
+    height: 14%;
+    width: 14.8%;
+    border-radius: 70px;
+}
+
+.XL:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.MTV{
+    position: absolute;
+    top: 339%;
+    left: 48.6%;
+    height: 2.9%;
+    width: 4.4%;
+    cursor: pointer;
+}
+
+/* .MTV:hover{
+    height: 3.6%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.King{
+    position: absolute;
+    top: 369%;
+    left: 17.8%;
+    height: 4.6%;
+    width: 16.7%;
+}
+
+.VS{
+    position: absolute;
+    top: 377.5%;
+    left: 17.2%;
+    height: 14%;
+    width: 29.3%;
+}
+
+.GP{
+    position: absolute;
+    top: 393.9%;
+    left: 16.1%;
+    height: 34%;
+    width: 31.9%;
+}
+
+.Model{
+    position: absolute;
+    top: 360%;
+    left: 22%;
     height: 100%;
-    background-color: #262626;
-  }
+    width: 80%;
+}
 
-  .swiper-slider img{
-    width: 100%;
-    height: 100%;
-  }
+.BT{
+    position: absolute;
+    top: 478.5%;
+    left: 8.2%;
+    height: 89.6%;
+    width: 42.5%;
+}
 
-  .stretched-link{
-    color: black;
-    text-decoration: none;
-  }
+.RJ{
+    position: absolute;
+    top: 445.5%;
+    left: 15.3%;
+    height: 14.2%;
+    width: 14.9%;
+}
 
-  .a{
-    color: black;
-    text-decoration: none;
-  }
+.RJ:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.JK{
+    position: absolute;
+    top: 449.8%;
+    left: 18.7%;
+    height: 3%;
+    width: 7.9%;
+    cursor: pointer;
+}
+
+/* .JK:hover{
+    height: 3.8%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.LS{
+    position: absolute;
+    top: 495%;
+    left: 56.8%;
+    height: 3.5%;
+    width: 16.4%;
+}
+
+.ASR{
+    position: absolute;
+    top: 503.5%;
+    left: 56.2%;
+    height: 14%;
+    width: 29.4%;
+}
+
+.DG{
+    position: absolute;
+    top: 520%;
+    left: 55%;
+    height: 34%;
+    width: 32%; 
+}
+
+.TL{
+    position: absolute;
+    top: 571.6%;
+    left: 54.3%;
+    height: 14%;
+    width: 14.8%;
+}
+
+.TL:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.PL{
+    position: absolute;
+    top: 575.9%;
+    left: 57.7%;
+    height: 3%;
+    width: 7.9%;
+    cursor: pointer;
+}
+
+/* .PL:hover{
+    height: 3.6%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+
+.IPL{
+    position: absolute;
+    top: 422%;
+    left: 18.2%;
+    height: 19.4%;
+    width: 29.7%;
+}
+
+.wc{
+    position: absolute;
+    top: 548.2%;
+    left: 57.5%;
+    height: 17.8%;
+    width: 21%;
+}
+
+.RCR{
+    position: absolute;
+    top: 639%;
+    left: 41.6%;
+    height: 6.4%;
+    width: 18.8%;
+}
+
+.RIP{
+    z-index: 2;
+    position: absolute;
+    top: 663.5%;
+    left: 19.4%;
+    height: 28.3%;
+    width: 17%;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px #00CC99, 6px 6px 12px 10px #140d09;
+}
+
+.RIP:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+
+.WFRG{
+    z-index: 2;
+    position: absolute;
+    top: 663.2%;
+    left: 41.5%;
+    height: 28.6%;
+    width: 17.4%;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px #FCF6F5FF, 6px 6px 12px 10px #0085ad;
+}
+
+.WFRG:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.LML{
+    z-index: 2;
+    position: absolute;
+    top: 663.2%;
+    left: 64%;
+    height: 29.2%;
+    width: 17.3%; 
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px #00a4e4, 6px 6px 12px 10px #ffdd00;
+}
+
+.LML:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.NKT{
+    z-index: 2;
+    position: absolute;
+    top: 721.9%;
+    left: 19.4%;
+    height: 28.7%;
+    width: 17%;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px #00a4e4, 6px 6px 12px 10px  #00205b;
+}
+
+.NKT:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.BFF{
+    z-index: 2;
+    position: absolute;
+    top: 721.9%;
+    left: 41.8%;
+    height: 28.7%;
+    width: 17%;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px  #005670, 6px 6px 12px 10px   #e66000;
+}
+
+.BFF:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.Blank{
+    z-index: 2;
+    position: absolute;
+    top: 722%;
+    left: 63.9%;
+    height: 28.9%;
+    width: 17.2%;
+    cursor: pointer;
+    box-shadow: 6px 6px 6px 5px  #005670, 6px 6px 12px 10px   #66FF99;
+}
+
+.Blank:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.RW{
+    position: absolute;
+    top: 698%;
+    left: 22.3%;
+    height: 3.2%;
+    width: 12.8%;
+}
+
+.RRR{
+    position: absolute;
+    top: 703%;
+    left: 24.8%;
+    height: 2.2%;
+    width: 7.8%;
+}
+
+.ES{
+    position: absolute;
+    top: 698.1%;
+    left: 47.2%;
+    height: 3.1%;
+    width: 7.5%;
+}
+
+.SM{
+    position: absolute;
+    top: 703%;
+    left: 47.1%;
+    height: 2.2%;
+    width: 7.8%;
+}
+
+.GD{
+    position: absolute;
+    top: 698%;
+    left: 67.9%;
+    height: 3.2%;
+    width: 9.8%;
+}
+
+.NN{
+    position: absolute;
+    top: 703%;
+    left: 69%;
+    height: 2.2%;
+    width: 7.6%;
+}
+
+.SE{
+    position: absolute;
+    top: 757%;
+    left: 26.2%;
+    height: 2.5%;
+    width: 5%;
+}
+
+.RM{
+    position: absolute;
+    top: 761.7%;
+    left: 24.9%;
+    height: 2.1%;
+    width: 7.6%;
+}
+
+.MA{
+    position: absolute;
+    top: 756.9%;
+    left: 44.6%;
+    height: 3%;
+    width: 11.9%;
+}
+
+.BH{
+    position: absolute;
+    top: 761.7%;
+    left: 47.2%;
+    height: 2.1%;
+    width: 7.6%;
+}
+
+.IOS{
+    position: absolute;
+    top: 756.8%;
+    left: 67.9%;
+    height: 3%;
+    width: 9.8%;
+}
+
+.IMY{
+    position: absolute;
+    top: 761.7%;
+    left: 69%;
+    height: 2.1%;
+    width: 7.6%;
+}
+
+.CF{
+    z-index: 2;
+    position: absolute;
+    top: 780.7%;
+    left: 39.6%;
+    height: 19.4%;
+    width: 20.2%;
+}
+
+.CF:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.AC{
+    z-index: 2;
+    position: absolute;
+    top: 786.8%;
+    left: 45.4%;
+    height: 3%;
+    width: 8.6%;
+    cursor: pointer;
+}
+
+/* .AC:hover{
+    height: 3.6%;
+    cursor: pointer;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+
+} */
+
+.AB{
+    position: absolute;
+    top: 834%;
+    left: 31.4%;
+    height: 8%;
+    width: 40.2%;
+}
+
+.SI{
+    position: absolute;
+    top: 846.3%;
+    left: 31.7%;
+    height: 11.5%;
+    width: 39.4%;
+}
+
+.SP{
+    position: absolute;
+    top: 883.4%;
+    left: 31.7%;
+    height: 22.1%;
+    width: 39.4%;
+}
+
+.pick{
+    position: absolute;
+    top: 906%;
+    left: 45.7%;
+    height: 26%;
+    width: 11.4%;
+    cursor: pointer;
+}
+
+.JF{
+    position: absolute;
+    top: 925.7%;
+    left: 46.5%;
+    height: 3.1%;
+    width: 9.7%;
+}
+
+.DJ{
+    position: absolute;
+    top: 930.5%;
+    left: 44.8%;
+    height: 3.1%;
+    width: 13.3%;
+}
+
+.FP{
+    position: absolute;
+    top: 956.7%;
+    right: 1.8%;
+    width: 100.4%;
+    height: 114%;
+}
+
+.SUFN{
+    position: absolute;
+    top: 968.5%;
+    left: 40.2%;
+    height: 3%;
+    width: 20.7%;
+}
+
+.SA{
+    position: absolute;
+    top: 974.2%;
+    left: 37%;
+    height: 7.2%;
+    width: 27%;
+}
+
+.Line{
+    position: absolute;
+    top: 358.9%;
+    left: 50.6%;
+    height: 254%;
+}
+
+.Circle{
+    position: absolute;
+    top: 407.2%;
+    left: 47.9%;
+    width: 6%;
+    height: 13.2%;
+}
+
+.CR{
+    position: absolute;
+    top: 526%;
+    left: 47.8%;
+    width: 6%;
+    height: 13.2%;
+}
+
+.AT{
+    position: absolute;
+    top: 611%;
+    left: 47.8%;
+    width: 6%;
+    height: 13.2%;
+}
+
+.Footer{
+    z-index: 2;
+    position: absolute;
+    top: 989.8%;
+    left: 32.4%;
+    height: 9%;
+    width: 35.2%;
+    border-radius: 50px;
+}
+
+.Footer:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.Email{
+    z-index: 2;
+    position: absolute;
+    top: 993.5%;
+    left: 36.3%;
+    height: 3.4%;
+    width: 9.6%;
+    cursor: pointer;
+}
+
+/* .Email:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.KGF{
+    z-index: 2;
+    position: absolute;
+    top: 989.3%;
+    left: 54.2%;
+    height: 13.9%;
+    width: 14.5%;
+}
+
+.KGF:hover{
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+}
+
+.Subscribe{
+    z-index: 2;
+    position: absolute;
+    top: 993.6%;
+    left: 59.3%;
+    height: 2%;
+    width: 4.5%;    
+    cursor: pointer;  
+}
+
+/* .Subscribe:hover{
+    height: 3.6%;
+    cursor: pointer;
+    opacity: 0.5;
+    transition: all 0.5s ease-in-out;
+} */
+
+.ROM{
+    position: absolute;
+    top: 1024%;
+    left: 19%;
+    height: 6.6%;
+    width: 9.8%; 
+}
+
+.Lorem{
+    position: absolute;
+    top: 1033.8%;
+    left: 19%;
+    height: 12%;
+    width: 14.1%;
+}
+
+.Box{
+    position: absolute;
+    top: 1049.5%;
+    left: 19.2%;
+    height: 3.9%;
+    width: 1.7%;
+}
+
+.Box1{
+    position: absolute;
+    top: 1049.5%;
+    left: 21.4%;
+    height: 3.9%;
+    width: 1.7%;
+}
+
+.Box2{
+    position: absolute;
+    top: 1049.5%;
+    left: 23.7%;
+    height: 3.9%;
+    width: 1.7%;
+}
+
+.Quick{
+    position: absolute;
+    top: 1025%;
+    left: 38.9%;
+    height: 2%;
+    width: 4.7%;    
+}
+
+.USA{
+    position: absolute;
+    top: 1030.3%;
+    left: 38.8%;
+    height: 19%;
+    width: 5.7%;
+}
+
+.UK{
+    position: absolute;
+    top: 1030.3%;
+    left: 50.8%;
+    height: 19%;
+    width: 6.9%;
+}
+
+.PG{
+    position: absolute;
+    top: 1025%;
+    left: 62.6%;
+    height: 2%;
+    width: 5.5%;
+}
+
+.CALL{
+    position: absolute;
+    top: 1029.4%;
+    left: 60.8%;
+    height: 8%;
+    width: 5%;
+}
+
+.RAAT{
+    position: absolute;
+    top: 1029.4%;
+    left: 64.5%;
+    height: 8%;
+    width: 5%;
+}
+
+.KAL{
+    position: absolute;
+    top: 1038%;
+    left: 64.5%;
+    height: 8%;
+    width: 5%;
+}
+
+.STAND{
+    position: absolute;
+    top: 1038%;
+    left: 60.8%;
+    height: 8%;
+    width: 5%;
+}
+
+.ADDRESS{
+    position: absolute;
+    top: 1025%;
+    left: 74.6%;
+    height: 2%;
+    width: 5.1%;
+}
+
+.TOWER{
+    position: absolute;
+    top: 1029.7%;
+    left: 75.9%;
+    height: 9%;
+    width: 16.4%;
+}
+
+.PHONE{
+    position: absolute;
+    top: 1039.3%;
+    left: 75.9%;
+    height: 9%;
+    width: 16.4%;
+}
+
+.LOCATION{
+    position: absolute;
+    top: 1030.2%;
+    left: 74.6%;
+    height: 1.6%;
+    width: 0.5%;
+}
+
+.TIMBER{
+    position: absolute;
+    top: 1040.3%;
+    left: 74.6%;
+    height: 1.6%;
+    width: 0.6%;
+}
+
+.MAIL{
+    position: absolute;
+    top: 1045.6%;
+    left: 74.6%;
+    height: 1.6%;
+    width: 0.6%;
+}
+
+.RIGHT{
+    position: absolute;
+    top: 1062.2%;
+    left: 42.9%;
+    height: 2.1%;
+    width: 15.3%;
+}
+
+.BAD{
+    position: absolute;
+    top: 880%;
+    left: 8.2%;
+    height: 26.2%;
+    width: 11.4%;
+}
+
+.HONEY{
+    position: absolute;
+    top: 875%;
+    left: 82.8%;
+    height: 26.2%;
+    width: 11.5%;
+}
+
+.DC{
+    position: absolute;
+    top: 909%;
+    left: -0.5%;
+    height: 23%;
+    width: 10.4%;
+}
+
+.sukki{
+    position: absolute;
+    top: 903.9%;
+    left: 92.9%;
+    height: 23%;
+    width: 10.2%;
+}
+
+.SK{
+    position: absolute;
+    top: 921%;
+    left: 13.7%;
+    height: 23%;
+    width: 10%;
+}
+
+.ST{
+    position: absolute;
+    top: 916%;
+    left: 78.2%;
+    height: 23%;
+    width: 10.3%; 
+}
